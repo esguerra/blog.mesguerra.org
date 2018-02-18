@@ -14,7 +14,6 @@ description: Write an awesome description for your new site here. You can edit t
   results) and in your feed.xml site description.
 baseurl: 
 url: http://blog.mesguerra.org
-#twitter_username: nonefornow
 github_username: esguerra
 remote_theme: jekyll-whiteglass
 plugins:
