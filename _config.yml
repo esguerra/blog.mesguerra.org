@@ -9,9 +9,7 @@ collections:
     title: Uploads
     output: true
 email: mauricio_dot_esguerra@gmail_dot_com
-description: Ramblings on biopolymers. My long love story as a computational chemistry with RNA,
-DNA, GPCR's, and even non-polymeric small molecules. Some stories on the practical day-to-day
-use of current computational tips and tricks.
+description: Ramblings on biopolymers. My long love story as a computational chemistry with RNA, DNA, GPCR's, and even non-polymeric small molecules. Some stories on the practical day-to-day use of current computational tips and tricks.
 baseurl: 
 url: http://blog.mesguerra.org
 github_username: esguerra
