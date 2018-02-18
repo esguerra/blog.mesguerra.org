@@ -5,9 +5,6 @@ collections:
   uploads:
     title: Uploads
     output: true
-  people:
-    title: people
-    output: true
   posts:
     title: posts
     output: true
