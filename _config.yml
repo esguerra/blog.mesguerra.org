@@ -1,0 +1,35 @@
+---
+title: blog.mesguerra.org
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+email: mauricio_dot_esguerra@gmail_dot_com
+description: Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for Google search
+  results) and in your feed.xml site description.
+baseurl: 
+url: http://blog.mesguerra.org
+twitter_username: jekyllrb
+github_username: jekyll
+theme: jekyll-whiteglass
+plugins:
+- jekyll-archives
+- jekyll-paginate
+- jekyll-sitemap
+- jekyll-feed
+permalink: "/:year/:month/:day/:title/"
+paginate_path: "/posts/:num/"
+paginate: 5
+jekyll-archives:
+  enabled:
+  - categories
+  - tags
+  layout: category_archives
+  permalinks:
+    category: "/categories/:name/"
+    tag: "/tags/:name/"
