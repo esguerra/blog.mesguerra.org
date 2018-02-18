@@ -1,0 +1,11 @@
+---
+layout: page
+title: "About"
+permalink: /about/
+---
+
+I'm Mauricio Esguerra, a computational biopolymer chemist, working at
+Uppsala University in Sweden. This blog deals with RNA, DNA, G-Protein
+Coupled Receptor, and new computational techniques, such as *jekyll*,
+and *siteleaf* which are used to write this blog.
+
