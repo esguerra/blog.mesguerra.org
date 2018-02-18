@@ -1,6 +1,6 @@
 ---
-title: First post
-date: 2018-02-18 16:52:17 Z
+title: the quest for the ultimate solution
+date: 2018-02-18 16:52:00 Z
 categories:
 - biopolymers
 - rna
