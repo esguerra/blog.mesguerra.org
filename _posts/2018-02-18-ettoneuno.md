@@ -1,6 +1,6 @@
 ---
-title: the quest for the ultimate solution
-date: 2018-02-18 16:52:00 Z
+title: a blogging ultimate solution
+date: 2018-02-18 17:52:00 +01:00
 categories:
 - biopolymers
 - rna
