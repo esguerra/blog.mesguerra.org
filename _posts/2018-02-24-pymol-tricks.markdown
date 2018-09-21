@@ -143,7 +143,7 @@ show cartoon, selection and name C1'
 ```
 
 
-### Counting atoms  
+### Count atoms  
 
 ```python
 select catoms, name c*
@@ -160,4 +160,9 @@ movie.add_state_loop(1,0,start=1)
 set movie_panel_row_height, 20
 ```
 
+### Show values of a setting   
+
+```python
+print setting.get_setting_text("gamma")
+```
 
