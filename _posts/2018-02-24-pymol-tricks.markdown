@@ -1,6 +1,11 @@
 ---
 title: pymol tricks
 date: 2018-02-24 21:25:00 +01:00
+tags:
+- pymol
+- pymol tricks
+- pymol python
+- molecular visualization
 ---
 
 I am a bit embarrassed to confess how long I have been using **pymol** for. It's certainly been quite a long time, somewhere around ten years. In those years I've compiled my own cheat-sheet, which I have abandoned somewhat. Now I'm giving a go to markdown and translating my old cheat sheet into a new one but with the same old tricks.
