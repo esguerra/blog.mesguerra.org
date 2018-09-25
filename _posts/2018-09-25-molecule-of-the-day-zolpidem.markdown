@@ -14,5 +14,5 @@ It turns out that many of the cases described by Oliver Sacks have to do with th
 The following is the chemical representation of the molecule (N,N-dimethyl-2-(6-methyl-2-p-tolylimidazo[1,2-a]pyridin-3-yl)acetamide) :
 ![zolpidem.png](/uploads/zolpidem.png)
 
-And the GABA receptor (PDB_ID=4COF) is show in the following cartoon (top-view, or extracellular view at the lower left corner and bottom view, or intracellular view at the lower right corner of the cartoon):
+And the [GABA](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4167603/) receptor ([PDB_ID=4COF](http://pdb.org/pdb/explore/explore.do?structureId=4cof)) is show in the following cartoon (top-view, or extracellular view at the lower left corner and bottom view, or intracellular view at the lower right corner of the cartoon):
 ![4cof.png](/uploads/4cof.png)
