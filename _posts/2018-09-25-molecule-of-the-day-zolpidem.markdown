@@ -15,4 +15,4 @@ The following is the chemical representation of the molecule (N,N-dimethyl-2-(6-
 ![zolpidem.png](/uploads/zolpidem.png)
 
 And the [GABA](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4167603/) receptor ([PDB_ID=4COF](http://pdb.org/pdb/explore/explore.do?structureId=4cof)) is show in the following cartoon (top-view, or extracellular view at the lower left corner and bottom view, or intracellular view at the lower right corner of the cartoon):
-<img src="/uploads/4cof.png" alt="4cof" width="200">
+<img src="/uploads/4cof.png" alt="4cof" width="500">
