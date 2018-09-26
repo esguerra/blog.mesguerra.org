@@ -1,6 +1,9 @@
 ---
 title: Molecule of the day -- Zolpidem
 date: 2018-09-25 09:15:00 +02:00
+tags:
+- zolpidem
+- mod
 ---
 
 This is an old post already from 2015 which I wrote elsewhere and which I'm copying here to test the usage of my new markdown based blogging solution.
