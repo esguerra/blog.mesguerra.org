@@ -1,0 +1,136 @@
+---
+title: More Insights into RNA Silencing. The Structure of Argonaute 2 at 2.3 Ångström
+  Resolution.
+date: 2012-05-07 17:42:00 +02:00
+---
+
+**The Crystal Structure of Human Argonaute2**  
+*Nicole T. Schirle and Ian J. Macrae*   
+[Science (2012), 336, 1037](http://dx.doi.org/10.1126/science.1221551)  
+
+Schirle and Macrae have solved the structure of the protein-RNA complex called Argonaute2 using X-ray spectroscopy. This protein-RNA complex is part of the RNA Induced Silencing Complex, or RISC for short. As its name reveals RISC's task is that of silencing. What RISC silences is RNA, meaning that it blocks a process that otherwise would have been accomplished had RISC not been there. The process blocked is translation of messenger RNA (mRNA) into proteins, and this is why the process is also known as post-transcriptional regulation, since mRNA is the target, and this one molecule has to be produced in transcribing DNA to RNA.
+
+
+It seems that the trick of RISC is that of carrying a short RNA (20-25 nucleotides) which will bind in a complementary fashion to an specific mRNA sequence and then make it a target for degradation. The structure solved  by the researchers at Scripps Research Institute in la Jolla, California, is that of the molecular complex present in humans.
+
+The following movie shows the molecular complex using the protein data bank (PDB) structure 4ei1:
+
+
+
+The script to produce the images (which are put together into a movie) using the molecular viewing program pymol follows:
+
+```bash
+
+#########################################
+# Mauricio Esguerra                     #
+# May 4, 2012                           #
+#                                       #
+# General pymol script to beautify      #
+# molecules.                            #
+#                                       #
+# This script can be invoked without    #
+# X11 display with:                     #
+# pymol -qc bla.pml &gt;&amp; bla.log &amp;        #
+#########################################
+
+
+#########################################
+# Molecule Specific Commands
+#########################################
+load 4ei1.pdb
+load blocks.r3d
+hide everything
+create protein, chain A
+create nucleic, chain B and (not resn U)
+remove 4ei1 in protein
+remove 4ei1 in nucleic
+show cartoon
+show cgo
+show surface, protein
+set transparency, 0.5, protein
+set cartoon_ladder_mode, 0
+set cartoon_rect_width, 1.2
+set cartoon_rect_length, 0.9
+set cartoon_cylindrical_helices, 1
+set stick_radius, 0.14
+show sticks, nucleic
+
+
+#########################################
+# General settings
+#########################################
+set orthoscopic, 1
+
+
+#########################################
+# Protein Secondary Structure Coloring 
+#########################################
+color blue, ss h
+color red,  ss s
+color grey, ss l+''
+color black, nucleic
+
+
+#########################################
+# Movie Making
+#########################################
+unset movie_auto_interpolate
+unset movie_loop
+
+mset 1 x480
+
+# Zoom to full and call it frame 1
+zoom complete=1
+frame 1
+mview store
+
+# zoom and stay
+zoom nucleic, complete=1
+frame 70
+mview store
+frame 90
+mview store
+
+mview interpolate
+
+
+
+
+# from frame 101 to 315 turn in y
+frame 200
+turn y, 140
+mview store
+
+# from frame 316 to 480 turn in y
+frame 315
+turn z, 90
+mview store
+mview interpolate, power=1
+
+zoom state=-1
+frame 480
+mview store
+#frame 480
+#mview store
+
+
+set movie_loop
+mview interpolate
+
+mview smooth
+
+#mplay
+#mstop
+
+#Make images for movie
+viewport 1024,768
+set ray_trace_frames=1
+set cache_frame=0
+mpng mov
+```
+
+A nice perspective called:
+
+["Guided Tour to the Heart of RISC"](http://www.sciencemag.org/content/336/6084/985.full)
+
+written by Emine Kaya and Jennifer A. Doudna accompanies the discovery reports in the same issue of science.
