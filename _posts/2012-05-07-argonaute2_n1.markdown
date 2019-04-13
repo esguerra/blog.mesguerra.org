@@ -2,6 +2,11 @@
 title: More Insights into RNA Silencing. The Structure of Argonaute 2 at 2.3 Ångström
   Resolution.
 date: 2012-05-07 17:42:00 +02:00
+tags:
+- argonaute
+- risc
+- rna
+- pymol
 ---
 
 **The Crystal Structure of Human Argonaute2**  
