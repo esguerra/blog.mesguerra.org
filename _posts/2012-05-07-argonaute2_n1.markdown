@@ -9,9 +9,9 @@ tags:
 - pymol
 ---
 
-# **The Crystal Structure of Human Argonaute2**   
-## *Nicole T. Schirle and Ian J. Macrae*  
-## [Science (2012), 336, 1037](http://dx.doi.org/10.1126/science.1221551)  
+**The Crystal Structure of Human Argonaute2**   
+*Nicole T. Schirle and Ian J. Macrae*  
+[Science (2012), 336, 1037](http://dx.doi.org/10.1126/science.1221551)  
 
 Schirle and Macrae have solved the structure of the protein-RNA complex called Argonaute2 using X-ray spectroscopy. This protein-RNA complex is part of the RNA Induced Silencing Complex, or RISC for short. As its name reveals RISC's task is that of silencing. What RISC silences is RNA, meaning that it blocks a process that otherwise would have been accomplished had RISC not been there. The process blocked is translation of messenger RNA (mRNA) into proteins, and this is why the process is also known as post-transcriptional regulation, since mRNA is the target, and this one molecule has to be produced in transcribing DNA to RNA.
 
