@@ -49,8 +49,8 @@ The script to produce the images (which are put together into a movie) using the
     hide everything
     create protein, chain A
     create nucleic, chain B and (not resn U)
-    remove 4ei1 in protein
-    remove 4ei1 in nucleic
+    remove 4ola in protein
+    remove 4ola in nucleic
     show cartoon
     show cgo
     show surface, protein
@@ -97,11 +97,7 @@ The script to produce the images (which are put together into a movie) using the
     mview store
     frame 90
     mview store
-    
     mview interpolate
-    
-    
-    
     
     # from frame 101 to 315 turn in y
     frame 200
@@ -120,10 +116,8 @@ The script to produce the images (which are put together into a movie) using the
     #frame 480
     #mview store
     
-    
     set movie_loop
     mview interpolate
-    
     mview smooth
     
     #mplay
