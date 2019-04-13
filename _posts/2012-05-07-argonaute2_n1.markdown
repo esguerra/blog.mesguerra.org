@@ -19,7 +19,10 @@ It seems that the trick of RISC is that of carrying a short RNA (20-25 nucleotid
 
 The following movie shows the molecular complex using the protein data bank (PDB) structure 4ei1:
 
-[video.mp4](/uploads/video.mp4)
+<video width="320" height="240" controls>
+<source src="http://images.mesguerra.org/Images/argonaute2/video.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video> 
 
 The script to produce the images (which are put together into a movie) using the molecular viewing program Pymol follows:
     
