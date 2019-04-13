@@ -19,8 +19,7 @@ It seems that the trick of RISC is that of carrying a short RNA (20-25 nucleotid
 
 The following movie shows the molecular complex using the protein data bank (PDB) structure 4ei1:
 
-The script to produce the images (which are put together into a movie) using the molecular viewing program pymol follows:
-
+The script to produce the images (which are put together into a movie) using the molecular viewing program Pymol follows:
     
     #########################################
     # Mauricio Esguerra                     #
@@ -31,14 +30,14 @@ The script to produce the images (which are put together into a movie) using the
     #                                       #
     # This script can be invoked without    #
     # X11 display with:                     #
-    # pymol -qc bla.pml &gt;&amp; bla.log &amp;        #
+    # pymol -qc bla.pml >& bla.log &        #
     #########################################
     
     
     #########################################
     # Molecule Specific Commands
     #########################################
-    load 4ei1.pdb
+    fetch 4ei1
     load blocks.r3d
     hide everything
     create protein, chain A
