@@ -17,7 +17,7 @@ Schirle and Macrae have solved the structure of the protein-RNA complex called A
 
 It seems that the trick of RISC is that of carrying a short RNA (20-25 nucleotides) which will bind in a complementary fashion to an specific mRNA sequence and then make it a target for degradation. The structure solved  by the researchers at Scripps Research Institute in la Jolla, California, is that of the molecular complex present in humans.
 
-The following movie shows the molecular complex using the protein data bank (PDB) structure 4ei1:
+The following movie shows the molecular complex using the protein data bank (PDB) structure > [4ei1](http://www.pdb.org/pdb/explore/explore.do?structureId=4ei1):
 
 <video width="320" height="240" controls>
 <source src="http://images.mesguerra.org/Images/argonaute2/video.mp4" type="video/mp4">
