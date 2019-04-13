@@ -21,9 +21,6 @@ The following movie shows the molecular complex using the protein data bank (PDB
 
 [video.mp4](/uploads/video.mp4)
 
-[argonaute.mp4](http://images.mesguerra.org/argonaute/video.mp4)
-
-
 The script to produce the images (which are put together into a movie) using the molecular viewing program Pymol follows:
     
     #########################################
