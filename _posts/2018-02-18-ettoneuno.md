@@ -1,5 +1,5 @@
 ---
-title: a blogging ultimate solution
+title: One solution for blogging
 date: 2018-02-18 17:52:00 +01:00
 categories:
 - biopolymers
@@ -18,7 +18,7 @@ By dimensions I mean that, since they are *biopolymers*, they have many dimensio
 
 But this is at the same time the blog of a computational chemist deeply involved and interested in web-development, programming, building computers, high performance computing, bioinformatics, and statistics.
 
-Specifically I was thinking about an ultimate solution for writing a blog. I wanted to be able to write in markdown and use github, but at the same time I wanted to have a Content Management System (CMS) GUI type of a thing, in case others who don't share my love for the *terminal* would be able to make posts with drag and drop pictures and such amenities. In the end it has boiled down to using in a combined way *siteleaf*, *jekyll*, and *github*.
+Specifically I was thinking about a once an for all final solution to easily write a blog. I wanted to be able to write in markdown and use github, but at the same time I wanted to have a Content Management System (CMS) GUI type of a thing, in case others who don't share my love for the *terminal* would be able to make posts with drag and drop pictures and such amenities. In the end it has boiled down to using in a combined way *siteleaf*, *jekyll*, and *github*.
 
 I also wanted to be able to upload images "easily", and, this is a good functionality of GUI's, in my opinion.
 
