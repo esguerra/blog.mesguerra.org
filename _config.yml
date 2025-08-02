@@ -25,9 +25,4 @@ plugins:
 permalink: "/:year/:month/:day/:title/"
 paginate_path: "/posts/:num/"
 paginate: 10
-jekyll-archives:
-  enabled: 
-  layout: category_archives
-  permalinks:
-    category: "/categories/:name/"
-    tag: "/tags/:name/"
+jekyll-archives: 
