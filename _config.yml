@@ -17,7 +17,7 @@ description: General scientific ramblings rooting mainly for biopolymers. My lon
 baseurl: 
 url: https://blog.mesguerra.org
 github_username: esguerra
-remote_theme: pages-themes/midnight
+remote_theme: pages-themes/midnightt
 plugins:
 - jekyll-remote-theme
 - jekyll-paginate
