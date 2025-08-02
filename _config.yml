@@ -1,5 +1,5 @@
 ---
-title: mesguerra blog
+title: "@"
 timezone: Europe/Stockholm
 collections:
   uploads:
@@ -17,7 +17,7 @@ description: General scientific ramblings rooting mainly for biopolymers. My lon
 baseurl: 
 url: https://blog.mesguerra.org
 github_username: esguerra
-remote_theme: pages-themes/architect
+remote_theme: pages-themes/cayman
 plugins:
 - jekyll-paginate
 - jekyll-sitemap
@@ -26,9 +26,7 @@ permalink: "/:year/:month/:day/:title/"
 paginate_path: "/posts/:num/"
 paginate: 10
 jekyll-archives:
-  enabled:
-  - categories
-  - tags
+  enabled: 
   layout: category_archives
   permalinks:
     category: "/categories/:name/"
