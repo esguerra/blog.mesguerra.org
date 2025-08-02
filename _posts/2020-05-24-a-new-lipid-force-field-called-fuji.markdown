@@ -8,9 +8,9 @@ Here's just a repost of an abstract on a "new" lipid force-field. One maybe shou
 Also interesting to note that the study is done with gromacs 2016.4. I wonder if the results could be reproducible using the latest version of gromacs, the practical problem being that changes in solvate and genion often result in segmentation fault errors.  
 
 
-# A New Lipid Force Field (FUJI) 
+## A New Lipid Force Field (FUJI) ##
 
-## Nozomu Kamiya, Megumi Kayanuma, Hideaki Fujitani, Keiko Shinoda  
+### Nozomu Kamiya, Megumi Kayanuma, Hideaki Fujitani, Keiko Shinoda  ###
 
 *J. Chem. Theory Comput. 2020 May 21*  
 
