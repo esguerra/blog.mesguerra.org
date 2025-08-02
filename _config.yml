@@ -19,7 +19,7 @@ url: https://blog.mesguerra.org
 github_username: esguerra
 remote_theme: yous/whiteglass
 plugins:
-- jekyll-archives
+#- jekyll-archives
 - jekyll-paginate
 - jekyll-sitemap
 - jekyll-feed
