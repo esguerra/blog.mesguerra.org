@@ -1,6 +1,6 @@
 ---
 title: "@"
-timezone: Europe/Copenhagen
+timezone: Europe/Stockholm
 collections:
   uploads:
     title: Uploads
@@ -9,13 +9,15 @@ collections:
     title: posts
     output: true
 email: mauricio_dot_esguerra@gmail_dot_com
-description: Ramblings on biopolymers. My long love story as a computational chemist
-  trying to understand RNA, DNA, GPCR's, and even non-polymeric small molecules. Also
-  some stories on the practical day-to-day use of current computational tips and tricks.
+description: General scientific ramblings rooting mainly for biopolymers. My long
+  love story as a computational chemist trying to understand RNA, DNA, Proteins (GPCR's,
+  Kinases, Enzymes, Medical Targets) and even non-polymeric small molecules. With
+  specific stories on the practical day-to-day use of current computational tips and
+  tricks.
 baseurl: 
 url: https://blog.mesguerra.org
 github_username: esguerra
-remote_theme: yous/whiteglass
+remote_theme: mmistakes/minimal-mistakes
 plugins:
 - jekyll-archives
 - jekyll-paginate
