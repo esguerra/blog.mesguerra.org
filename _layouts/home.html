@@ -17,8 +17,13 @@ layout: default
           <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}{% if post.categories != empty or post.tags != empty %}{% include category_links.html categories=post.categories tags=post.tags %}{% endif %}</p>
         </header>
         <div class="post-content">
-          {{ post.content }}
+          {{ post.excerpt }}
         </div>
+        {% if post.content contains site.excerpt_separator %}
+          <p class="post-continue">
+            <a href="{{ post.url | relative_url }}">Read on &rarr;</a>
+          </p>
+        {% endif %}
       </li>
     {% endfor %}
   </ul>
