@@ -22,7 +22,6 @@ plugins:
 - jekyll-paginate
 - jekyll-sitemap
 - jekyll-feed
-- jekyll-remote-theme
 permalink: "/:year/:month/:day/:title/"
 paginate_path: "/posts/:num/"
 paginate: 10
